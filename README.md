@@ -29,12 +29,12 @@ The script does not require any external libraries. It uses basic Python feature
 
 issue 1:
 You have to print the result instead of the user input
-issue 1:
+issue 2:
 ![image](https://github.com/viviendbk/ASCII-art-generator-VivienDeblock-CDOF4/assets/113977328/cd2938f9-57ab-4560-894d-0479d69ea1e5)
 should be 
 ![image](https://github.com/viviendbk/ASCII-art-generator-VivienDeblock-CDOF4/assets/113977328/fa521386-25b1-4bed-b3d5-a7c38179da1d)
 
-issue 2:
+issue 3:
 ![image](https://github.com/viviendbk/ASCII-art-generator-VivienDeblock-CDOF4/assets/113977328/47ae20ce-8fa3-4d06-a090-630859e27482)
 should be 
 ![image](https://github.com/viviendbk/ASCII-art-generator-VivienDeblock-CDOF4/assets/113977328/12f8d529-8d96-40bd-a363-ecd00ce327a6)
