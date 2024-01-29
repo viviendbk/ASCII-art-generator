@@ -1,1 +1,1 @@
-readme
+A simple ascii art generator.
