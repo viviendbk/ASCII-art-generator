@@ -26,3 +26,8 @@ This is a simple Python script that generates ASCII art representations for inpu
 
 ### Dependencies
 The script does not require any external libraries. It uses basic Python features to generate ASCII art.
+
+
+issue 1:
+![image](https://github.com/viviendbk/ASCII-art-generator-VivienDeblock-CDOF4/assets/113977328/cd2938f9-57ab-4560-894d-0479d69ea1e5)
+
