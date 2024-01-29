@@ -45,4 +45,4 @@ def generate_ascii_art(text):
 if __name__ == "__main__":
     user_input = input("Enter text to convert to ASCII art: ")
     result = generate_ascii_art(user_input)
-    print(user_input)
+    print(result)
