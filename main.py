@@ -1,10 +1,9 @@
-#!/usr/bin/env python
 def generate_ascii_art(text):
     characters = {
         'A': ["  A  ", " A A ", "AAAAA", "A   A", "A   A"],
         'B': ["BBBB ", "B   B", "BBBB ", "B   B", "BBBB "],
         'C': [" CCCC", "C    ", "C    ", "C    ", " CCCC"],
-        'D': ["DDDD ", "D   D", "D   D", "D   D", "DDDD "],
+        'D': ["D ", "D   D", "D   D", "D   D", "DDDD "],
         'E': ["EEEEE", "E    ", "EEEEE", "E    ", "EEEEE"],
         'F': ["FFFFF", "F    ", "FFFFF", "F    ", "F    "],
         'G': [" GGG ", "G    ", "G  GG", "G   G", " GGGG"],
@@ -27,8 +26,7 @@ def generate_ascii_art(text):
         'X': ["X   X", " X X ", "  X  ", " X X ", "X   X"],
         'Y': ["Y   Y", " Y Y ", "  Y  ", "  Y  ", "  Y  "],
         'Z': ["ZZZZZ", "   Z ", "  Z  ", " Z   ", "ZZZZZ"],
-        ' ': ["     ", "     ", "     ", "     ", "     "],  # Space
-        # Add more characters as needed
+        ' ': ["     ", "     ", "     ", "     ", "     "],
     }
 
     lines = [""] * 5  # 5 lines for each character
@@ -36,10 +34,10 @@ def generate_ascii_art(text):
     for char in text.upper():
         if char in characters:
             char_lines = characters[char]
-            for i in range(5):
+            for i in range(4):
                 lines[i] += char_lines[i] + " "
         else:
-            for i in range(5):
+            for i in range(4):
                 lines[i] += " " * 6  # Default space for unknown characters
 
     return "\n".join(lines)
@@ -47,4 +45,4 @@ def generate_ascii_art(text):
 if __name__ == "__main__":
     user_input = input("Enter text to convert to ASCII art: ")
     result = generate_ascii_art(user_input)
-    print(result)
+    print(user_input)
