@@ -24,9 +24,5 @@ This is a simple Python script that generates ASCII art representations for inpu
 5. The script will generate and display the corresponding ASCII art.
 
 
-### Dependencies
-The script does not require any external libraries. It uses basic Python features to generate ASCII art.
-
-
 
 
