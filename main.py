@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 def generate_ascii_art(text):
     characters = {
         'A': ["  A  ", " A A ", "AAAAA", "A   A", "A   A"],
