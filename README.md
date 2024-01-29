@@ -13,10 +13,9 @@ This is a simple Python script that generates ASCII art representations for inpu
    ```
 
 2. Navigate to the directory containing the script.
-
   ```bash
   cd ascii-art-generator
-   ```
+  ```
 3. Run the script
   python ascii_art_generator.py
 
