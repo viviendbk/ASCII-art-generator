@@ -44,10 +44,10 @@ def generate_ascii_art(text):
     for char in text.upper():
         if char in characters:
             char_lines = characters[char]
-            for i in range(4):
+            for i in range(5):
                 lines[i] += char_lines[i] + " "
         else:
-            for i in range(4):
+            for i in range(5):
                 lines[i] += " " * 6  # Default space for unknown characters
 
     return "\n".join(lines)
